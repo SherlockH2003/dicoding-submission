@@ -20,8 +20,8 @@ st.markdown(
 )
 
 # Untuk baca CSV
-fileDay = pd.read_csv('day.csv')
-fileHour = pd.read_csv('hour.csv')
+fileDay = pd.read_csv('/mount/src/dicoding-submission/dashboard/day.csv')
+fileHour = pd.read_csv('/mount/src/dicoding-submission/dashboard/hour.csv')
 
 tab1, tab2= st.tabs(["Day", "Hour"])
 
