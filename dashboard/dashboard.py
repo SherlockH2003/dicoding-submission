@@ -6,7 +6,8 @@ import matplotlib.pyplot as mp
 
 import os
 script_dir = os.path.dirname(os.path.abspath(__file__))
-st.write("Script directory:", script_dir)
+fileDay_path = os.path.join(script_dir, 'day.csv')
+fileHour_path = os.path.join(script_dir, 'hour.csv') 
 
 st.caption("Dicoding Indonesia 2024")
 # judulnya
@@ -20,8 +21,8 @@ st.markdown(
 )
 
 # Untuk baca CSV
-fileDay = pd.read_csv('/mount/src/dicoding-submission/dashboard/day.csv')
-fileHour = pd.read_csv('/mount/src/dicoding-submission/dashboard/hour.csv')
+fileDay = pd.read_csv(fileDay_path)
+fileHour = pd.read_csv(fileHour_path)
 
 tab1, tab2= st.tabs(["Day", "Hour"])
 
