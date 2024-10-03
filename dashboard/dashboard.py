@@ -4,6 +4,9 @@ import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as mp
 
+import os
+st.title(print("Current working directory:", os.getcwd()))
+
 st.caption("Dicoding Indonesia 2024")
 # judulnya
 st.title("Proyek Data Analyst Dicoding")
