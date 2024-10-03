@@ -5,7 +5,8 @@ import seaborn as sb
 import matplotlib.pyplot as mp
 
 import os
-st.title(print("Current working directory:", os.getcwd()))
+script_dir = os.path.dirname(os.path.abspath(__file__))
+st.write("Script directory:", script_dir)
 
 st.caption("Dicoding Indonesia 2024")
 # judulnya
