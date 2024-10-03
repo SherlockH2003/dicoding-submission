@@ -1,4 +1,11 @@
+!pip install pandas
+!pip install seaborn
+!pip install matplotlib
+!pip install numpy
+
+
 import streamlit as st
+import numpy as np
 import pandas as pd
 import seaborn as sb
 import matplotlib.pyplot as mp
