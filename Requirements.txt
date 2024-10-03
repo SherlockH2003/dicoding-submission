@@ -1,7 +1,0 @@
-Required library :
-
-* pandas
-* numpy
-* matplotlib
-* seaborn
-* streamlit
